@@ -1,5 +1,5 @@
 import csv
-import random
+import random 
 
 # 1000000 and 52 == roughly 1GB (WARNING TAKES a while, 30s+)
 # 10000000 and 3 == roughly 657MB
