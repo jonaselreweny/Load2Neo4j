@@ -16,7 +16,7 @@ def generate_random_row(col):
     return a
 
 if __name__ == '__main__':
-    f = open('sample.csv', 'w')
+    f = open('source/sample.csv', 'w')
     w = csv.writer(f, lineterminator='\n')
     for i in range(rows):
         if i % print_after_rows == 0:
